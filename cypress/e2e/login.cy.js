@@ -9,9 +9,8 @@ describe('teste de login', () => {
 
 
     it('passes', () => {     
-      cy.get('[data-test="input-loginEmail"]').type('amanda123@gmail.com');
-      cy.get('[data-test="input-loginPassword"]').type('Senha123');
-      cy.get('[data-test="submit-button"]').click();
+      cy.login('amanda123@gmail.com', 'Senha123');
+
     })
   })
   

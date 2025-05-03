@@ -7,11 +7,7 @@ describe('pagina de cadastro', () => {
 })
   
   it('passes', () => {
-    cy.get('[data-test="input-name"]').type('Amanda Bynes');
-    cy.get('[data-test="input-email"]').type('amanda123@gmail.com');
-    cy.get('[data-test="input-password"]').type('Senha123');
-    cy.get('[data-test="input-confirm-password"]').type('Senha123');
-    cy.get('[data-test="submit-button"]').click();
+    cy.cadastro('Daniele', 'dani@gmail.com', 'Dani12345')
   })
 })
 

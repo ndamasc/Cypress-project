@@ -6,8 +6,9 @@ Este é um projeto simples criado com o objetivo de aprender e praticar testes a
 
 'npm init -y'
 
-'npx cypress open'
+'npx cypress open'      # para rodar com a interface grafica
 
+'npx cypress run'       # para rodar sem a interface grafica
 
 ### Roteiro de Testes — Casos de Sucesso  ✅
 
@@ -43,3 +44,11 @@ Este é um projeto simples criado com o objetivo de aprender e praticar testes a
 - Preencher campos de "senha" com uma senha diferente do cadastrado
 - Clicar no botao Entrar
 - Aparecer erro de email/senha invalidos
+
+
+### 🧪 Ferramentas Utilizadas
+
+- Cypress
+- Node.js
+- Mochawesome
+- Cloud

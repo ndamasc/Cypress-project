@@ -1,5 +1,5 @@
 # 🚀 Cypress Project
-Este é um projeto simples criado com o objetivo de aprender e praticar testes automatizados utilizando o [Cypress](https://www.cypress.io/).
+Este é um projeto simples criado com o objetivo de aprender e praticar testes automatizados utilizando o [Cypress](https://www.cypress.io/), curso realizado pela plataforma ALURA.
 
 
 ## 📦 Inicializando o Projeto

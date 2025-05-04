@@ -22,7 +22,7 @@ cypress/screenshots/
 .env
 .env.local
 .env.*.local
-
+cypress.env.json
 # arquivos de sistema (macOS, Windows)
 .DS_Store
 Thumbs.db
